@@ -74,7 +74,7 @@ public class Restaurant {
     public String getName() {
         return name;
     }
-   //Newly Method Added ..
+   //Newly Method Added ...
     public int getOrderValues(String... ItemNames) throws itemNotFoundException {
         int total_Price = 0;
         for (String itemName : ItemNames) {
